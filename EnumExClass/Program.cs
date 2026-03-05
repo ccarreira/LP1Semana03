@@ -8,6 +8,8 @@ namespace EnumExClass
         {
             WOW myClass;
             myClass = 0;
+            //Console.Write("Altura do cilindro: ");
+            //string a = string.Parse(Console.ReadLine());
 
             foreach (string arg in args)
             {
