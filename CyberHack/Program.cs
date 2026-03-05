@@ -22,7 +22,6 @@ namespace CyberHack
                 case "CorporateServer":
                     hacked = true;
 
-
                     break;
                 case "BankDatabase":
 
