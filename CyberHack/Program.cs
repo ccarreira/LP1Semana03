@@ -7,6 +7,7 @@ namespace CyberHack
         private static void Main(string[] args)
         {
             //
+            //
             bool hacked = true;
             string tipoSistema = Console.ReadLine();
             string hackTools = Console.ReadLine();
