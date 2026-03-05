@@ -6,7 +6,23 @@ namespace EnumExClass
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            WOW myClass;
+            myClass = 0;
+
+            foreach (string arg in args)
+            {
+                myClass = Enum.Parse<WOW>(arg);
+            }
+
+            if (myClass == WOW.Warrior)
+            {
+                Console.WriteLine("Fight!");
+            }
+
+            if (myClass == WOW.Mage)
+            {
+                Console.WriteLine("Conjure!");
+            }
         }
     }
 }

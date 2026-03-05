@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace ChangeString
 {
@@ -12,19 +13,15 @@ namespace ChangeString
             Console.Write("Caráter: ");
             char c = Console.ReadLine()[0];
 
-            string result = text.Replace(c, 'x');
-
-            Console.WriteLine(result);
-
-            for (int i = 0; i < result.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-                Console.WriteLine(result[i]); // imprime um carácter por linha
+                if (text[i] == c)
+                    Console.Write('x');
+                else
+                    Console.Write(text[i]);
             }
 
-            foreach (char cc in result)
-            {
-                Console.Write(cc); // imprime um carácter por linha
-            }
+            Console.WriteLine();
         }
     }
 }

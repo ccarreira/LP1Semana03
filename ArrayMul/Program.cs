@@ -45,3 +45,18 @@ for (int i = 0; i < A.GetLength(0); i++)      // linhas
 }
 
 */
+
+
+
+
+/***************************************** 
+int[,] A =
+{
+    {1, 2, 3},
+    {4, 5, 6}
+};
+foreach (int value in A)
+{
+    Console.WriteLine(value);
+}
+*/
