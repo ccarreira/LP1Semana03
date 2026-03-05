@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ArrayMul/ArrayMul.csproj" />
+  <Project Path="Arrays_ex/Arrays_ex.csproj" />
+  <Project Path="ChangeString/ChangeString.csproj" />
+  <Project Path="EnumExClass/EnumExClass.csproj" />
+  <Project Path="HeroPerk/HeroPerk.csproj" />
+  <Project Path="RightSize/RightSize.csproj" />
+</Solution>
